@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@lemonsqueezy/lemonsqueezy.js": "^3.0.0",
+    "database": "workspace:*",
+    "lemonsqueezy-webhooks": "^0.0.6",
+    "logs": "workspace:*",
+    "stripe": "^15.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "eslint": "^8.57.0",
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint-config-custom/base"
+    ],
+    "root": true
+  },
+  "main": "./index.ts",
+  "name": "billing",
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\""
+  },
+  "types": "./**/.ts",
+  "version": "0.0.0"
+}

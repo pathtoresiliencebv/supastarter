@@ -1,0 +1,27 @@
+{
+  "name": "auth",
+  "version": "0.0.0",
+  "main": "./index.tx",
+  "types": "./**/*.ts",
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\""
+  },
+  "dependencies": {
+    "@node-rs/argon2": "^2.0.2",
+    "@oslojs/crypto": "^1.0.1",
+    "@oslojs/encoding": "^1.1.0",
+    "arctic": "^3.2.1",
+    "cookie": "^1.0.2",
+    "database": "workspace:*",
+    "eslint-config-custom": "workspace:*",
+    "h3": "^1.14.0",
+    "mail": "workspace:*",
+    "oslo": "^1.2.1",
+    "tsconfig": "workspace:*",
+    "utils": "workspace:*",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "scripts": {
+    "lint": "eslint \"**/*.ts\""
+  },
+  "dependencies": {
+    "@lemonsqueezy/lemonsqueezy.js": "^4.0.0",
+    "auth": "workspace:*",
+    "chargebee-typescript": "^2.44.0",
+    "database": "workspace:*",
+    "eslint-config-custom": "workspace:*",
+    "logs": "workspace:*",
+    "mail": "workspace:*",
+    "storage": "workspace:*",
+    "stripe": "^17.5.0",
+    "tsconfig": "workspace:*",
+    "utils": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "openai": "^4.80.0",
+    "prisma": "^6.1.0",
+    "superjson": "^2.2.2",
+    "trpc-nuxt": "^0.10.22",
+    "zod": "^3.24.0"
+  }
+}

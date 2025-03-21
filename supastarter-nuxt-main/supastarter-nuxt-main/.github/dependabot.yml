@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 25
+    groups:
+      trpc:
+        patterns:
+          - "@trpc/*"
+      prisma:
+        patterns:
+          - "@prisma/*"
+          - "prisma"
+      vee-validate:
+        patterns:
+          - "@vee-validate/*"
+          - "vee-validate"
